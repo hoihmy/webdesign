@@ -1,3 +1,59 @@
 body {
     background-color: #ffffff;
 }
+
+/* 1rem = 16px */
+header .nav {
+    height: 1rem;
+    background-color: #7fbb35;
+    padding: 0.5rem;
+    color: #ffffff;
+}
+
+header .nav .contact-info, .contact-info-email {
+    margin-left: 2rem;
+}
+
+header .nav .signin-signup-info {
+    float: right;
+    margin-right: 2rem;
+}
+
+header .header-logo {
+    padding: 2.5rem;
+}
+
+header .navigation-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7fbb35;
+}
+  
+header .navigation-menu ul li {
+    float: left;
+    margin-left: 2rem;
+}
+  
+header .navigation-menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+  
+header .navigation-menu ul li:hover {
+    background-color: #000;
+}
+
+header .navigation-menu .input-search {
+    float: right;
+    margin-right: 2rem;
+}
+
+header .navigation-menu .input-search input {
+    width: 150px;
+    height: 50px;
+}
